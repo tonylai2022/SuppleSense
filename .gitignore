@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+
+# VSCode
+.vscode/
+
+# Data and models
+*.csv
+*.joblib
+*.pkl
+data/segmented_customers.csv
+data/customer_data.csv
+churn_model.pkl
+kmeans_model.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# OS-specific
+.DS_Store
+Thumbs.db
